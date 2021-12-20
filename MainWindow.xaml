@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PracticalWork_9"
         mc:Ignorable="d"
-        Title="Практическая работа №9" Height="327" Width="438">
+        Title="Практическая работа №9" Height="327" Width="476" ResizeMode="CanMinimize">
     <Grid Margin="0,0,0,-6">
-        <DataGrid x:Name="questionnaire" HorizontalAlignment="Left" Height="185" Margin="10,10,0,0" VerticalAlignment="Top" Width="370"/>
-        <Button Content="О программе" HorizontalAlignment="Left" Height="24" Margin="145,217,0,0" VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.5,0.56" Click="Info_Click"/>
-        <Button Content="Заполнить" HorizontalAlignment="Left" Height="24" Margin="10,217,0,0" VerticalAlignment="Top" Width="120" Click="FillQuestionnaire_Click"/>
-        <Button Content="Выход" HorizontalAlignment="Left" Height="24" Margin="270,217,0,0" VerticalAlignment="Top" Width="110" Click="Exit_Click"/>
-        <Button x:Name="averageAge" Content="Средний возраст" HorizontalAlignment="Left" Height="24" Margin="196,253,0,0" VerticalAlignment="Top" Width="184" Click="AverageAge_Click"/>
-        <TextBox x:Name="averageAgeOut" HorizontalAlignment="Left" Height="24" Margin="10,253,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+        <DataGrid x:Name="questionnaire" HorizontalAlignment="Left" Height="185" Margin="11,10,0,0" VerticalAlignment="Top" Width="418"/>
+        <Button Content="О программе" HorizontalAlignment="Left" Height="24" Margin="164,248,0,0" VerticalAlignment="Top" Width="129" RenderTransformOrigin="0.5,0.56" Click="Info_Click"/>
+        <Button Content="Заполнить" HorizontalAlignment="Left" Height="24" Margin="11,248,0,0" VerticalAlignment="Top" Width="135" Click="FillQuestionnaire_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Height="24" Margin="305,248,0,0" VerticalAlignment="Top" Width="124" Click="Exit_Click"/>
+        <Button x:Name="averageAge" Content="Средний возраст" HorizontalAlignment="Left" Height="24" Margin="222,209,0,0" VerticalAlignment="Top" Width="207" Click="AverageAge_Click"/>
+        <TextBox x:Name="averageAgeOut" HorizontalAlignment="Left" Height="24" Margin="10,209,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" IsEnabled="False"/>
 
     </Grid>
 </Window>
